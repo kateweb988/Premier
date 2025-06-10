@@ -1,0 +1,521 @@
+@media screen and (max-width: 1300px)
+   .nav__list li
+      margin-right: 20px
+   .ser__top p
+      max-width: 239px
+      br 
+         display: none
+   .area__info
+      max-width: 537px
+@media screen and (max-width: 1199px)
+   .menu-btn, .menu
+      display: block
+   .menu-btn 
+      width: 40px
+      height: 40px
+      position: absolute
+      right: 0px
+      top: 0px
+      z-index: 11
+      overflow: hidden
+      background: url(/img/bur1.svg) no-repeat center center
+   .menu-btn span 
+      width: 40px
+      height: 2px
+      position: absolute
+      top: 50%
+      opacity: 0
+      left: 50%
+      transform: translate(-50%, -50%)
+      background-color: white
+      transition: all 0.5s
+      margin-left: 5px
+   .menu-btn span:nth-of-type(2) 
+      top: calc(50% - 8.5px)
+      width: 40px
+      height: 2px
+      margin-left: 0
+   .menu-btn span:nth-of-type(3) 
+      top: calc(50% + 9.4px)
+      width: 40px
+      height: 2px
+      margin-left: 12px
+   .menu 
+      position: fixed
+      top: 0
+      left: 0
+      width: 100%
+      height: 100%
+      padding: 100px 40px 40px
+      background: #030303
+      transform: translateX(-100%)
+      transition: transform 0.5s
+      z-index: 10
+      overflow: hidden
+      &.active 
+         transform: translateX(0%)
+      ul 
+         text-align: center
+         li 
+            margin-bottom: 20px
+            a 
+               font-size: 16px
+               color: white
+   .nav 
+      .nav__list
+         display: none
+      &__box 
+         padding-right: 50px
+         position: relative
+   .menu-btn.active span:nth-of-type(1) 
+      display: none
+   .menu-btn.active span:nth-of-type(2) 
+      top: 50%
+      width: 24px
+      transform: translate(-50%, 0%) rotate(45deg)
+      opacity: 1
+   .menu-btn.active span:nth-of-type(3) 
+      width: 24px
+      top: 50%
+      transform: translate(-50%, 0%) rotate(-44deg)
+      opacity: 1
+   .menu-btn.active
+      background: url(/img/bur2.svg) no-repeat center center
+   .header__wrap
+      flex-direction: column 
+      text-align: center
+      align-items: center
+   .header__content
+      margin-top: 60px
+   .header__links
+      justify-content: center
+   .header__img
+      margin-top: 35px
+      position: relative
+      left: 20px
+   .header__fig 
+      bottom: -154px
+      right: 50%
+      margin-right: -317px
+   .header
+      padding-bottom: 50px
+   .about__top div p
+      font-size: 16px
+   .about__top
+      margin-bottom: 120px
+   .about__row .sub
+      position: relative
+      margin-bottom: 20px
+   .about__row
+      margin-bottom: 60px
+      flex-direction: column-reverse
+      align-items: flex-start
+   .about__right
+      margin-left: 0
+      max-width: 100%
+   .about__name
+      margin-bottom: 30px
+   .about__text
+      margin-bottom: 40px
+   .about__box
+      overflow-x: auto 
+      overflow-y: hidden
+      div 
+         min-width: 225px
+         margin-right: 33px
+   .about__left
+      margin: 0 
+   .about__row_2
+      position: relative
+      margin-bottom: 0
+      padding-bottom: 87px
+   .about__btn
+      position: absolute
+      bottom: 0
+      left: 50%
+      margin-left: -130.5px
+   .about
+      padding-bottom: 60px
+   .ser
+      padding: 60px 0
+   .ser__box
+      margin-top: 25px
+      flex-direction: column
+   .ser__block
+      padding: 15px
+      max-width: 100%
+   .ser__block_last
+      margin-top: 0
+   .ser__block_last .ser__top
+      padding-bottom: 30px
+   .area__box
+      flex-direction: column
+   .area__info
+      margin-bottom: 40px
+   .area__content
+      align-self: center
+   .brands
+      padding-bottom: 70px
+   .order__box
+      padding: 35px 30px
+   .vacan__row
+      margin-top: 20px
+      flex-direction: column
+   .vacan__content
+      margin-top: 20px
+   .vacan
+      padding-bottom: 70px
+   .doc h2
+      margin-bottom: 30px
+   .doc__item
+      flex-direction: column
+      padding-bottom: 30px
+   .doc__item p
+      max-width: 80%
+      text-align: center
+      margin: 15px auto 25px
+   .doc__item h3
+      text-align: center
+      width: 100%
+   .doc__item div
+      margin: 0 auto
+   .doc
+      padding-bottom: 80px
+   .contacts__info
+      margin-left: 60px
+   .contacts h2
+      margin-top: 0
+   .contacts__content 
+      margin-left: 297px
+      margin-top: 0
+      margin-bottom: 25px
+   .footer__box
+      flex-direction: column
+      align-items: center
+   .footer__logo
+      margin-bottom: 30px
+   .footer__policy
+      position: relative
+      top: 0
+      left: 0
+      margin-bottom: 15px
+   .footer .nav__list 
+      top: 0
+      left: 0
+      width: 100%
+      justify-content: center
+      max-width: 33%
+      margin-left: 0
+      margin-bottom: 25px
+      li 
+         margin-right: 25px
+   .footer__tel div
+      justify-content: center
+   .footer__tel
+      margin-bottom: 30px
+      padding-top: 0
+   .footer__el
+      margin-bottom: 40px
+      padding-top: 0
+      span
+         text-align: center
+         display: block
+   .footer__com a
+      text-align: center
+   .footer__com
+      padding-top: 0
+      margin-left: 0
+   .about__row_2
+      .about__left
+         margin: 0 auto
+@media ( max-width: 991px )
+   input, textarea, select
+      -webkit-appearance: none
+      -moz-appearance: none
+      appearance: none
+   body
+      h1, p, h2, span, h3
+         letter-spacing: inherit !important
+   .header__img
+      left: 73px
+   .header__fig
+      margin-right: -367px
+   .header__wrap h1
+      margin-bottom: 20px
+   h1, .about__title
+      line-height: 100% 
+      font-size: 36px
+   .about__name
+      line-height: 100% 
+      font-size: 32px
+   .about__top
+      flex-direction: column
+   .about__top div
+      width: 100%
+      height: auto
+      padding: 10px 25px 22px 9px
+      margin-bottom: 15px
+      &:last-child
+         margin-bottom: 0
+   h2 
+      line-height: 100% 
+      font-size: 34px
+   .vacan__content
+      max-width: 100%
+   .contacts__flex
+      margin-bottom: 50px
+      flex-direction: column
+   .contacts h2
+      margin-bottom: 30px
+      line-height: 100% 
+      font-size: 65px
+   .contacts__flex a
+      height: 59px
+      font-size: 20px
+      line-height: 100%
+   .contacts__info
+      margin-left: 0
+   .contacts__row
+      flex-direction: column-reverse
+   .contacts__content
+      margin-left: 0
+   .contacts__socials
+      margin-bottom: 30px
+   .contacts #map
+      height: 280px
+   .footer .nav__list
+      max-width: 43%
+@media screen and (max-width: 767px)
+   .header__content p
+      br 
+         display: none
+   .ser__block .sub
+      font-size: 16px
+      height: 43px
+   .ser__top
+      padding-bottom: 30px
+      max-height: inherit
+      flex-direction: column
+      p 
+         max-width: 100%
+   .ser__top p:nth-child(2)
+      margin-top: 15px
+   .ser__row
+      flex-direction: column
+      align-items: flex-start
+   .ser__content
+      max-width: 100% 
+      margin-bottom: 30px
+   .order__form input, .order__form textarea
+      padding-left: 20px
+   .order__flex
+      flex-direction: column
+      margin-bottom: 0
+   .order__form input, .order__form textarea
+      width: 100%
+      margin-bottom: 10px
+   .order__form textarea
+      height: 117px
+      max-width: 100%
+      margin-bottom: 0
+   .order__form button
+      width: 100%
+      margin-bottom: 15px
+   .order__form p
+      margin-left: 0
+      text-align: center
+      width: 100%
+      a 
+         display: block
+         margin-left: 0
+   .order__form input:nth-child(3), .order__form textarea:nth-child(3)
+      width: 100%
+@media screen and (max-width: 576px)
+   .about__left
+      max-width: 100%
+   button:active, button:focus 
+      outline: none
+   button::-moz-focus-inner 
+      border: 0
+   a:active, a:focus
+      outline: none
+   input, textarea
+      outline: none
+   input:active, textarea:active
+      outline: none
+   input:focusout
+      outline: none
+   .mm 
+      flex-direction: column 
+      align-items: center
+      justify-content: center
+      li 
+         margin-bottom: 40px !important
+         width: 100% !important
+         margin-top: 0 !important
+   .mob 
+      display: block !important
+   .container 
+      padding: 0 29px
+   .nav__logo
+      width: 114px
+   .nav__info a
+      font-size: 16px
+      line-height: 100% 
+   .nav__info p
+      font-size: 12px
+      line-height: 16px
+   .nav
+      padding: 25px 0
+   .menu-btn
+      top: -3px
+   h1, .about__title
+      font-size: 30px
+   .header__content p
+      font-size: 14px
+      line-height: 19px
+      margin-bottom: 36px
+   .header__links
+      flex-direction: column 
+      a 
+         height: 55px
+         font-size: 14px
+         line-height: 100%
+         width: 100%
+         margin-bottom: 15px
+      .header__link
+         margin-left: 0
+         margin-bottom: 0
+   .header__content
+      margin-top: 12px
+   .header__img 
+      left: 38px
+      width: 386px
+   .header__fig 
+      margin-right: -202px
+      bottom: -84px
+   .header
+      padding-bottom: 24px
+   .about__top div
+      height: 125.5px
+   .about__name
+      font-size: 26px
+   .about__row .sub
+      margin-bottom: 29px
+   .about__title
+      margin-bottom: 8px
+   .about__name
+      margin-bottom: 27px
+   .about__text p
+      font-size: 14px
+      line-height: 19px
+   .about__box
+      margin-top: 18px
+      margin-bottom: 0
+   .about__text p
+      br 
+         display: none
+   .about__row_2 .about__left
+      img 
+         width: 100%
+   .about__row_2
+      padding-bottom: 70px
+   .about__btn 
+      margin-left: 0
+      height: 55px
+      width: 93.5%
+      left: 0
+   h2 
+      font-size: 30px
+   .about
+      padding-bottom: 68px
+   .ser__box
+      margin-top: 32px
+   .ser__block .sub
+      margin-bottom: 19px
+   .ser__block
+      padding: 15px 25px
+   .ser__title
+      font-size: 16px
+      line-height: 20px
+      margin-bottom: 24px
+   .ser__item
+      padding-bottom: 29px
+      margin-bottom: 29px
+   .area__block
+      width: 48.5%
+      &:nth-child(4), &:nth-child(17)
+         display: none
+   .area__info
+      margin-bottom: 44px
+   .area
+      padding-bottom: 71px
+   .order h2
+      margin-bottom: 26px
+   .order__form input, .order__form textarea
+      font-size: 14px
+   .order__form button 
+      margin-bottom: 12px
+      margin-top: 11px
+   .order__form p
+      font-size: 12px
+      line-height: 16px
+   .order
+      padding-bottom: 72px
+   .brands h2
+      margin-bottom: 27px
+   .vacan__content p
+      font-size: 14px
+      line-height: 19px
+   .vacan__btn
+      width: 100%
+   .doc__item h3 
+      text-align: left
+      width: 100%
+      font-size: 14px
+      line-height: 19px
+   .doc__item p 
+      max-width: 100%
+      text-align: left
+      margin: 15px 0 25px
+      font-size: 14px
+      line-height: 19px
+   .doc__item div 
+      margin: 0 auto
+      width: 100%
+      height: 54px
+   .doc__item
+      margin-bottom: 30px
+   .contacts h2
+      font-size: 50px
+   .doc 
+      padding-bottom: 71px
+   .contacts__content p
+      font-size: 16px
+      line-height: 22px
+   .footer
+      padding-top: 40px
+   .footer .nav__list
+      max-width: 325px
+      li:nth-child(3n)
+         margin-right: 0
+      li:last-child
+         margin-right: 0
+   .about 
+      .container
+         padding-right: 0
+   .about__top, .about__row
+      padding-right: 29px
+   .about__box
+      margin-bottom: 15px
+   .page .header
+      padding-bottom: 80px
+   .awards__btn
+      width: 159px
+      height: 55px
+      font-size: 14px
+   .awards__row img
+      width: 100%
+   .awards
+      padding-bottom: 80px
+

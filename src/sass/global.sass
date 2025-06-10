@@ -1,0 +1,177 @@
+body
+   font-family: 'Manrope', sans-serif
+   background: #080808
+   font-weight: 400
+   font-size: 14px
+   line-height: 19px
+   color: white
+   letter-spacing: -0.02rem
+a
+   text-decoration: none
+   box-sizing: border-box
+   transition: 0.5s !important
+   &:hover 
+      color: $blue
+.blue
+   color: $blue
+.container
+   padding: 0 15px
+   max-width: 1314px
+   margin: 0 auto
+   @media ( max-width: 1199px )
+      max-width: 960px
+   @media (max-width: 991px)
+      max-width: 720px
+   @media (max-width: 767px)
+      max-width: 540px
+.d-flex, .q
+   display: flex
+.body-wrap
+   overflow: hidden
+   position: relative
+   display: flex
+   flex-direction: column
+   min-height: 100vh
+footer
+   margin-top: auto
+h1
+   color: rgb(255, 255, 255)
+   font-size: 46px
+   font-weight: 400
+   letter-spacing: -0.05rem
+   line-height: 46px
+   margin: 0
+   span 
+      font-weight: 600
+      letter-spacing: -0.05rem
+h2 
+   margin: 0
+   color: rgb(255, 255, 255)
+   font-size: 46px
+   font-weight: 600
+   line-height: 46px
+   letter-spacing: -0.1rem
+ul 
+   margin: 0
+   padding: 0
+   list-style-type: none
+p
+   margin: 0
+.svg, rect, line, circle
+   transition: 0.5s ease
+a
+   transition: color 0.5s ease
+   box-sizing: border-box
+li
+   a
+      transition: color 0.5s ease
+button
+   cursor: pointer
+   box-sizing: border-box
+textarea
+   transition: border 0.5s
+   box-sizing: border-box
+   &:focus
+      transition: border 0.5s
+      outline: none
+      border: 1px solid $blue
+input
+   transition: 0.5s
+   box-sizing: border-box
+   border: 1px solid #fff
+   &:disabled
+      pointer-events: none
+      opacity: 0.5
+   &:focus 
+      border: 1px solid $blue 
+      transition: 0.5s
+   &:focus-visible
+      outline: initial
+path
+   transition: fill 0.5s, stroke 0.5s
+div 
+   box-sizing: border-box
+.icon 
+   transition: fill 0.5s, stroke 0.5s
+.brands__row, .about__box
+   scrollbar-width: thin
+   scrollbar-color: transparent transparent
+html * 
+   scrollbar-width: thin
+   scrollbar-color: blue $blue
+*::-webkit-scrollbar,
+html *::-webkit-scrollbar 
+   height: 7px
+   width: 7px
+*::-webkit-scrollbar-track,
+html *::-webkit-scrollbar-track 
+   background: #E7E7E7
+   border-radius: 3px
+*::-webkit-scrollbar-thumb,
+html *::-webkit-scrollbar-thumb 
+   background-color: $blue
+   border-radius: 6px
+.sub 
+   display: flex
+   align-items: center
+   justify-content: center
+   width: max-content 
+   height: 43px
+   padding: 0 15px
+   box-sizing: border-box
+   border: 1px solid rgba(255, 255, 255, 0.2)
+   border-radius: 60px
+   color: rgb(255, 255, 255)
+   font-size: 16px
+   letter-spacing: -0.02rem
+   font-weight: 400
+   line-height: 22px
+.btn 
+   display: flex
+   align-items: center
+   justify-content: center
+   transition: 0.5s
+   box-sizing: border-box
+   width: 195px
+   height: 72px
+   border-radius: 15px
+   position: relative
+   overflow: hidden
+   color: rgb(255, 255, 255)
+   letter-spacing: -0.05rem
+   font-size: 16px
+   font-weight: 700
+   line-height: 22px
+   &:hover 
+      color: white
+      &:after 
+         opacity: 1
+      &:before 
+         opacity: 1
+         left: 0px
+         width: 100%
+         height: 100%
+   &::after
+      content: ""
+      position: absolute
+      height: 100%
+      width: 100%
+      box-sizing: border-box
+      background: linear-gradient(132.63deg, rgb(20, 30, 48) -3.754%,rgb(40, 65, 111) 107.631%)
+      left: 0px
+      z-index: -2
+      transition: 0.7s
+      opacity: 1
+   &:before 
+      content: ""
+      position: absolute
+      height: 100%
+      width: 0%
+      box-sizing: border-box
+      background: $blue
+      left: 0px
+      top: 0
+      transform-origin: top 
+      z-index: -1
+      transition: 0.7s
+      opacity: 0

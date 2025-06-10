@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="format-detection" content="date=no">
+	<meta name="format-detection" content="address=no">
+	<meta name="format-detection" content="email=no">
+	<!-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" /> -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+
+	<title>ПРЕМЬЕР</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<!-- Favicon -->
+	<!-- <link rel="icon" href="img/fav.png" type="image/x-icon">
+	<link rel="shortcut icon" href="img/fav.png" type="image/x-icon"> -->
+	<!-- OG -->
+	<meta property="og:locale" content="ru-Ru">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="">
+	<meta property="og:description" content="">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+
+<body>
+	<div class="body-wrap page">
+		<div class="menu">
+			<ul>
+				<li>
+					<a href="main.html#about">
+						О компании
+					</a>
+				</li>
+				<li>
+					<a href="main.html#ser">
+						Услуги
+					</a>
+				</li>
+				<li>
+					<a href="main.html#area">
+						Поставщики
+					</a>
+				</li>
+				<li>
+					<a href="main.html#order">
+						Оставить заявку
+					</a>
+				</li>
+				<li>
+					<a href="main.html#vacan">
+						Вакансии
+					</a>
+				</li>
+				<li>
+					<a href="main.html#contacts">
+						Контакты
+					</a>
+				</li>
+				<li>
+					<a href="main.html#doc">
+						Лицензии и документы
+					</a>
+				</li>
+			</ul>
+		</div>
+		<header class="header" id="header">
+			<nav class="nav">
+				<div class="container">
+					<div class="nav__box q">
+						<a href="main.html" class="nav__logo">
+							<img src="img/logo.png" alt="">
+						</a>
+						<ul class="nav__list">
+							<li>
+								<a href="main.html#about">
+									О компании
+								</a>
+							</li>
+							<li>
+								<a href="main.html#ser">
+									Услуги
+								</a>
+							</li>
+							<li>
+								<a href="main.html#area">
+									Поставщики
+								</a>
+							</li>
+							<li>
+								<a href="main.html#order">
+									Оставить заявку
+								</a>
+							</li>
+							<li>
+								<a href="main.html#vacan">
+									Вакансии
+								</a>
+							</li>
+							<li>
+								<a href="main.html#contacts">
+									Контакты
+								</a>
+							</li>
+							<li>
+								<a href="main.html#doc">
+									Лицензии и документы
+								</a>
+							</li>
+						</ul>
+						<div class="nav__info">
+							<a href="tel:+78888888888">
+								+7 (888) 888 88-88
+							</a>
+							<p>
+								Время работы:
+							</p>
+						</div>
+						<div class="menu-btn"></div>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<section class="awards" id="awards">
+			<div class="container">
+				<div class="awards__top q">
+					<h1>
+						Награды
+					</h1>
+					<a href="main.html" class="awards__btn btn">
+						На главную <img src="img/btn.svg" alt="">
+					</a>
+				</div>
+				<div class="awards__row q">
+					<img src="img/award1.png" alt="">
+					<img src="img/award2.png" alt="">
+					<img src="img/award3.png" alt="">
+					<img src="img/award4.png" alt="">
+					<img src="img/award5.png" alt="">
+					<img src="img/award6.png" alt="">
+					<img src="img/award7.png" alt="">
+				</div>
+			</div>
+		</section>
+		<section class="contacts" id="contacts">
+			<div class="container">
+				<div class="contacts__flex q">
+					<h2>
+						Контакты
+					</h2>
+					<div class="contacts__info">
+						<a href="mailto:company_premier@mail.ru ">
+							company_premier@mail.ru 
+						</a>
+						<a href="tel:+78888888888 ">
+							+7 888 888 88 88
+						</a>
+					</div>
+				</div>
+				<div class="contacts__row q">
+					<div class="contacts__socials q">
+						<a href="#" target="_blank">
+							<img src="img/social1.svg" alt="" class="svg">
+						</a>
+						<a href="#" target="_blank">
+							<img src="img/social2.svg" alt="" class="svg">
+						</a>
+						<a href="#" target="_blank">
+							<img src="img/social3.svg" alt="" class="svg">
+						</a>
+					</div>
+					<div class="contacts__content">
+						<p>
+							ООО «ПРЕМЬЕР»
+						</p>
+						<p>
+							г. Казань пр. Хезмет 10А
+						</p>
+					</div>
+				</div>
+			</div>
+			<div id="map"></div>
+		</section>
+		<footer class="footer" id="footer">
+			<div class="container">
+				<div class="footer__box q">
+					<img src="img/footer-logo.png" alt="" class="footer__logo">
+					<ul class="nav__list">
+						<li>
+							<a href="main.html#about">
+								О компании
+							</a>
+						</li>
+						<li>
+							<a href="main.html#ser">
+								Услуги
+							</a>
+						</li>
+						<li>
+							<a href="main.html#area">
+								Поставщики
+							</a>
+						</li>
+						<li>
+							<a href="main.html#order">
+								Оставить заявку
+							</a>
+						</li>
+						<li>
+							<a href="main.html#vacan">
+								Вакансии
+							</a>
+						</li>
+						<li>
+							<a href="main.html#contacts">
+								Контакты
+							</a>
+						</li>
+						<li>
+							<a href="main.html#doc">
+								Лицензии и документы
+							</a>
+						</li>
+					</ul>
+					<div class="footer__tel">
+						<a href="tel:+78888888888">
+							+7 (888) 888 88-88
+						</a>
+						<div>
+							<p>
+								Сейчас работаем
+							</p>
+						</div>
+					</div>
+					<div class="footer__el">
+						<p>
+							пр.Хезмет 10А
+						</p>
+						<span>
+							Адрес
+						</span>
+					</div>
+					<a href="#" class="footer__policy" target="_blank">
+						Политика конфиденциальности
+					</a>
+					<div class="footer__com">
+						<p>
+							Cоздание сайта —
+						</p>
+						<a href="#" target="_blank">
+							AGILIZE
+						</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+	<script src="js/all.js"></script>
+</body>
+
+</html>
